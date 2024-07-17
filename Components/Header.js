@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div>
       <h1> my name is akash</h1>
-       <h2>today is my exAM</h2>
+       <h2>i have to learn fast.</h2>
     </div>
   )
 }
