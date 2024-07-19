@@ -1,17 +1,13 @@
-"use client"
-import React, { useState } from 'react'
+ import React from 'react'
+  const page = () => {
+   return (
+     <div>
+      <h2>This is Home page </h2>
+       
 
-const page = () => {
-  const[marks, setMarks] = useState(50)
-  return (
-    <>
-    <h1>My marks were {marks}</h1>
-    <button onClick={()=> {
-      setMarks(56)
-    }} >Update</button>
-    </>
-  )
-}
-
-export default page
-
+     </div>
+   )
+ }
+ 
+ export default page
+ 
